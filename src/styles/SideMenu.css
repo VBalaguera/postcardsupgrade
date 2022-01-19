@@ -1,0 +1,43 @@
+.toggle-button {
+  height: 3rem;
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 5;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button-logo {
+  display: flex;
+  background-image: url("../assets/svg/tfrtc.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  width: 4rem;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.5s ease;
+}
+
+.toggle-button-logo:hover {
+  transition: all 0.5s ease;
+  filter: brightness(80%);
+}
+
+@media screen and (max-width: 500px) {
+  .toggle-button-logo {
+    width: 3rem;
+    height: 3rem;
+  }
+}

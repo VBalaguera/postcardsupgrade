@@ -1,0 +1,30 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.3); */
+  background: rgba(255, 252, 252, 1);
+  z-index: 900;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.backdrop-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.backdrop-links-link {
+  margin: 1rem;
+  transition: all 0.5s ease;
+}
+
+.backdrop-links-link:hover {
+  transition: all 0.5s ease;
+}

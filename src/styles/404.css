@@ -1,0 +1,38 @@
+
+
+.errorpage-container {
+    width: 100%; 
+    height: 100vh; 
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end;
+    align-items: center; 
+
+    background-image: url("https://i.ibb.co/TbWp4qN/20210208010142-1.jpg"); 
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+    font-size: calc(10px + 2vmin);
+}
+
+.errorpage-container-text {
+    background-color: 	rgb(0, 19, 33, 0.5); 
+    margin-bottom: 2.4rem; 
+}
+
+
+@media screen and (max-width: 760px) {
+    .errorpage-container {
+
+        justify-content: flex-end;
+
+        font-size: calc(10px + 1vmin);
+
+        
+    }
+
+
+  }

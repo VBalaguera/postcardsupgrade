@@ -1,0 +1,46 @@
+.about-container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("https://jolly-goldberg-e7fe3d.netlify.app/images/20201110151846_1%20contact%20and%20credits.jpg");
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  font-size: 1rem;
+}
+
+.about-container-contents-text {
+  background-color: rgb(0, 19, 33, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+}
+
+.about-container-contents-text-link {
+  margin-top: 1rem;
+  transition: all 0.5s ease;
+}
+.about-container-contents-text-link:hover {
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 760px) {
+  .about-container {
+    justify-content: flex-end;
+
+    font-size: 1rem;
+  }
+
+  .about-container a {
+    margin-bottom: 1rem;
+  }
+}

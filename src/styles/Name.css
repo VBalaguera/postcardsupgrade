@@ -1,0 +1,28 @@
+
+
+
+
+.name-responsive {
+    display: none; 
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .name-regular {
+        display: none; 
+    }
+
+    .name-responsive {
+        display: flex; 
+        background-image: url("../assets/svg/tfrtc.svg"); 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: 50%; 
+        width: 5rem; 
+        height: 5rem; 
+        justify-content: center;
+        align-items: center; 
+    }
+}
